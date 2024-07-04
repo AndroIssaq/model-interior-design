@@ -35,8 +35,9 @@ useEffect(()=>{
 },[])
 
   return (
-    <nav  className={`navbar fixed bg-black flex flex-row-reverse  transition-all duration-300 overflow-hidden  items-center justify-between top-0 z-[999999999999] ${navbarLayout?'  border-none fixed bg-black ': " "}   px-[20px]`}>
-  <div className="navbar-start lg:hidden flex-1  items-center justify-center" >
+    <nav  className={`h-[100px] w-[100%] fixed bg-black  transition-all duration-300 overflow-hidden  flex items-center justify-center top-0 z-[999999999999] ${navbarLayout?'  border-none fixed bg-black ': " "}   `}>
+      <div className="container flex flex-row-reverse  items-center justify-between">
+      <div className="navbar-start lg:hidden flex-1  items-start justify-start" >
   <div className="mobile-nav sm:hidden   cursor-pointer  ">
                     <img className=' w-[30px]' src={toggle ? close :menu} alt="menu" onClick={()=>settoggle((prev)=>!prev)} />
                     <div className={`${toggle ? 'flex' : 'hidden'}   w-full rounded-sm sidebar  p-5 flex gap-5 items-start flex-col absolute right-0 top-[58px]` } >
@@ -50,25 +51,29 @@ useEffect(()=>{
                     </div>
                 </div>
   </div>
-  <div className="nav-bar-center flex-1  items-center justify-center">
-  <Link to={'/'} className="lg:w-[100px] md:w-[70px] sm:w-[70px] w-[70px]">  <div className="logo">
-            <img src={logo} alt="" />
-        </div></Link>
+  <div className="logo flex-1 flex items-center justify-center">
+  <Link to={'/'} className="">  
+    <div className="logo-img lg:w-[70px]">
+      <img src={logo} alt="" className="w-full h-full"/>
+    </div>
+  </Link>
   </div>
   <div className="navbar-center hidden lg:flex items-center justify-center flex-[4] ">
     <ul className="menu menu-horizontal flex-row-reverse px-1 flex items-center justify-center gap-[20px]">
     <Link to={'/'}><li>الصفحة الرئيسية</li></Link>
-      <Link to={'/portfolio'}><li>من نحن</li></Link>
-      <Link to={'/what we do'}><li>اعمالنا</li></Link>
-      <Link to={'/aboutUs'}><li>المدونة</li></Link>
-      <Link to={'/contactUs'}><li>تواصل معنا </li></Link>
+      <Link to={'/من نحن'}><li>من نحن</li></Link>
+      <Link to={'/مشاريعنا'}><li>اعمالنا</li></Link>
+      <Link to={'/المدونة'}><li>المدونة</li></Link>
+      <Link to={'/تواصل معنا'}><li>تواصل معنا </li></Link>
     </ul>
   </div>
-  <div className="icons navbar-end text-[20px] flex-1 flex items-end justify-end gap-[20px]">
+  <div className="icons navbar-end text-[20px] flex-1 flex items-start justify-start gap-[20px]">
     <a to="" className=""><MdFacebook/></a>
     <a to="" className=""><AiFillInstagram/></a>
     <a to="" className=""><BiLogoLinkedin/></a>
   </div>
+      </div>
+  
 </nav>
   )
 }

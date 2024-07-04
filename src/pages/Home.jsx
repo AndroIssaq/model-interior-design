@@ -6,6 +6,10 @@ import OurValuable from '../components/OurValuable'
 import { LampDemo } from '../components/LampDemo'
 import PartnersSlider from '../components/partnersSlider/PartnersSlider'
 import Services from '../components/Services'
+import ProjectsImgs from '../components/ProjectsImgs'
+import Coast from '../components/Coast'
+import Blog from '../components/Blog'
+import RecentProjects from '../components/RecentProjects/RecentProjects'
 
 const Home = () => {
   return (
@@ -14,9 +18,13 @@ const Home = () => {
         <AboutUs/>
         <Ceo/>
         <OurValuable/>
+        <RecentProjects/>
         <LampDemo/>
         <PartnersSlider/>
         <Services/>
+        <ProjectsImgs/>
+        <Coast/>
+        <Blog/>
     </section>
   )
 }

@@ -1,0 +1,43 @@
+.card span{
+    transition: .5s;
+}
+.card img{
+    transition: .5s;
+}
+.card span:hover{
+    background-color: #000000af;
+}
+.card:hover img{
+   transform: scale(1.2);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-button-next{
+    color: #e9ad64;
+  }
+  .swiper-button-prev{
+    color: #e9ad64;
+  }
+  .swiper-pagination-bullet{
+    background-color: #e9ad64;
+  }
