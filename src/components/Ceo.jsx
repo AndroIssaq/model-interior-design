@@ -1,12 +1,12 @@
 import React from 'react'
-import ceoImg from '../assets/man.jpg'
+import ceoImg from '../assets/file2.png'
 const Ceo = () => {
   return (
     <section>
     <div className="container">
         <div className="flex xl:flex-row-reverse lg:flex-row-reverse  md:flex-col sm:flex-col flex-col bg-[#121111] rounded-[20px] items-center justify-center w-full ">
             <div className="left flex-1 flex items-center justify-center ">
-                <div className='ceo-img w-[100%] h-[600px] '>
+                <div className='ceo-img w-[100%] xl:h-[700px] lg:h-[600px] md:h-[800px] sm:h-[700px] h-[700px]'>
                     <img src={ceoImg} alt="" className='w-full h-full object-cover rounded-[20px] ' />
                 </div>
               

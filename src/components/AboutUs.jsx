@@ -1,10 +1,10 @@
 import React from 'react'
-import video from '../assets/gets.mp4'
+import video from '../assets/videoplayback (2).mp4'
 const AboutUs = () => {
   return (
     <section>
         <div className="container">
-            <div className="flex  bg-[#121111] rounded-[20px] items-center justify-center w-full ">
+            <div className="flex xl:flex-row lg:flex-row md:flex-col sm:flex-col flex-col  bg-[#121111] rounded-[20px] items-center justify-center w-full ">
                 <div className="left flex-1">
                     <video autoPlay muted loop className='w-full rounded-[20px]'>
                         <source src={video}  />

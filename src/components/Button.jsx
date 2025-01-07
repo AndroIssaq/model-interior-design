@@ -4,14 +4,16 @@ import { HoverBorderGradient } from "../components/ui/HoverBorderGradient";
 export function HoverBorderGradientDemo({title}) {
   return (
     <div className=" flex justify-center text-center">
-      <HoverBorderGradient
-        containerClassName="rounded-full w-[250px]"
-        as="button"
-        className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
-      >
-        <AceternityLogo />
-        <span>{title}</span>
-      </HoverBorderGradient>
+      <a href="https://wa.me/+201022222649">
+        <HoverBorderGradient
+          containerClassName="rounded-full w-[250px]"
+          as="button"
+          className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
+        >
+          <AceternityLogo />
+          <span>{title}</span>
+        </HoverBorderGradient>
+      </a>
     </div>
   );
 }

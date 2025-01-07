@@ -23,11 +23,11 @@ const ProjectsImgs = () => {
     <section className='  w-full mb-[50px] mt-[100px]'>
     <div className="container  text-center">
     <Swiper
-    slidesPerView={2}
+    slidesPerView={1}
     spaceBetween={0}
     breakpoints={{
       640: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 0,
       },
       768: {

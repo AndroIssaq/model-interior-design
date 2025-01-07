@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../assets/50.jpeg'
 import { HoverBorderGradientDemo } from './Button'
+import { Link } from 'react-router-dom'
 const Coast = () => {
   return (
     <section>
@@ -14,8 +15,9 @@ const Coast = () => {
             </div>
             <div className="right text-center flex-1 p-[20px]  flex flex-col gap-[40px]">
                 <h1 className='lg:text-[45px] md:text-[35px] sm:text-[30px] text-[25px] text-[#fff]'>تعتقد أنك لا تستطيع تحمل تكلفة تصميم داخلي جميل؟<br/>فكر مرة أخرى. </h1>
-                
-                <HoverBorderGradientDemo title={'احجز معاينتك'}/>
+                <a href='' >
+                    <HoverBorderGradientDemo title={'احجز معاينتك'}/>
+                </a>
             </div>
         </div>
     </div>

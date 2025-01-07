@@ -3,7 +3,7 @@ import GallerySection from '../GallerySection';
 import Spinner from '../Spinner';
 const ProjectsComponent = ({title ,setIsLoading,isLoading,products,setId,idProducts,galleryOpen,setGalleryOpen,setIdProducts}) => {
   return (
-    <section className='mt-[150px]'>
+    <section className='mt-[50px]'>
     <div className='w-full container text-end lg:text-[25px] md:text-[25px] text-Gold p-0'><h1>{title}</h1></div>
     <div className="container border-t border-[#706f6f]">
         <div className="cards mt-[20px] grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-3 grid-cols-1 gap-[20px]">
