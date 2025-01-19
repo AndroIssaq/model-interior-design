@@ -9,7 +9,7 @@ import logo from '../assets/logo.png'
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 export default function NavbarMenu() {
-    const navbarLinks=[  'الصفحة الرئيسية' , 'من نحن' ,'اعمالنا','المركز الاعلامي','تواصل معنا']
+    const navbarLinks=[  'الصفحة الرئيسية' , 'من نحن' ,'مشاريعنا','المركز الاعلامي','تواصل معنا']
     const [toggle, settoggle] = useState(false)
     const [color, setColor]=useState(false)
     const ColorHandler=()=>{

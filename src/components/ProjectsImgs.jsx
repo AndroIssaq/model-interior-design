@@ -1,4 +1,3 @@
-import React from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -51,7 +50,7 @@ const ProjectsImgs = () => {
             return(
                 <SwiperSlide key={index} className=' bg-transparent h-[100vh]'>
                     <div className='img w-[100%] h-[100%]   flex items-center justify-center relative'>   
-                        <img src={logo.img} alt="" className=' w-full h-full object-cover' />
+                        <img src={logo.img} loading='lazy' alt="" className=' w-full h-full object-cover' />
                         <span className=' absolute top-0 left-0 w-full h-full bg-[#00000052]'></span>
                     </div>
                 </SwiperSlide>

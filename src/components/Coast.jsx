@@ -1,4 +1,3 @@
-import React from 'react'
 import img from '../assets/50.jpeg'
 import { HoverBorderGradientDemo } from './Button'
 import { Link } from 'react-router-dom'
@@ -9,7 +8,7 @@ const Coast = () => {
         <div className="flex xl:flex-row-reverse lg:flex-row-reverse  md:flex-col sm:flex-col flex-col bg-[#121111] rounded-[20px] items-center justify-center w-full ">
             <div className="left flex-1 flex items-center justify-center ">
                 <div className='img w-[100%] h-[600px] '>
-                    <img src={img} alt="" className='w-full h-full object-cover rounded-[20px] ' />
+                    <img src={img} loading='lazy' alt="" className='w-full h-full object-cover rounded-[20px] ' />
                 </div>
               
             </div>

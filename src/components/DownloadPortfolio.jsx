@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import {IoCloseSharp} from 'react-icons/io5'
 import { HoverBorderGradientDemo } from './Button'
@@ -10,7 +9,7 @@ const DownloadPortfolio = () => {
     <div className={`transition bg-[#000] rounded-md duration-300  ${active?'download-active':'download-not-active'} download-layout fixed z-[4000] lg:w-[600px] lg:h-[400px] md:w-[500px] md:h-[400px] w-[350px] h-[350px] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]`}>
     <div className="pr-[20px] relative gap-[20px] h-full flex items-center justify-center">
       <div className="img flex-1 h-full rounded-md overflow-hidden">
-          <img src={img} alt="" className='w-full h-full object-cover rounded-md' />
+          <img src={img} loading='lazy' alt="" className='w-full h-full object-cover rounded-md' />
       </div>
         <div className="content flex-1 h-full flex flex-col items-center justify-center gap-[20px]">
                 <h5 className='text-[25px] w-[100%] text-left text-[#fff]'>احنا بنوفرلك تشطيب بيتك بأفضل باقات التشطيبات </h5>

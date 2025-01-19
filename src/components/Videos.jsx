@@ -1,6 +1,4 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { createClient } from 'contentful'
+import { useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -12,31 +10,6 @@ import './styles.css';
 const Videos = () => {
     const [videos, setVideos] = useState([])
     const [idVideos, setIdVideos] = useState([])
-  
-    const [id,setId]=useState('')
-      const client = createClient({
-        space: '1y7yfbvle9rn',
-        environment: 'master', // defaults to 'master' if not set
-        accessToken: 'ShXDyL6YTbJVAI84wY5jVDL_zaUBUUTMevh9eK6YnmY'
-      })
-  
-      const getData = async()=>{
-        try {
-            const response=await client.getEntries({content_type:'videos'})
-            setVideos(response.items)
-        } catch (error) {
-            console.log(error);
-        }
-      }
-      const getIdData = async()=>{
-      client.getEntry(id)
-      .then((entry) => setIdVideos(entry) )
-      .catch(console.error)
-      }
-      useEffect(() => {
-        getData()
-    }, [])  
-  console.log(videos);
   
   return (
     <section className='w-full'>

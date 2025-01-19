@@ -1,4 +1,3 @@
-import React from 'react'
 import video1 from '../assets/التصميم الخارجي.mp4'
 import video2 from '../assets/التصميم الداخلي.mp4'
 import video3 from '../assets/التشطيبات.mp4'

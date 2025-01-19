@@ -1,7 +1,6 @@
 import '../RecentProjects/Recent.css'
 import { useState,useEffect } from "react";
 import { createClient } from 'contentful';
-import GallerySection from '../GallerySection';
 import ProjectsComponent from '../projects/ProjectsComponent';
 import Spinner from '../Spinner';
 const RecentProjects = () => {

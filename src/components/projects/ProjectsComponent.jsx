@@ -23,7 +23,7 @@ const ProjectsComponent = ({title ,setIsLoading,isLoading,products,setId,idProdu
                   <div key={index}  onClick={galleryHandlerOpen} 
                     className="card  relative cursor-pointer ">
                     <div className='img overflow-hidden lg:h-[467px] md:h-[467px] sm:h-[250px] h-[250px] relative'>
-                      <img src={'http:'+product?.fields?.img?.fields?.file?.url} alt="" className=' h-full w-full object-cover'/>
+                      <img src={'http:'+product?.fields?.img?.fields?.file?.url} loading='lazy' alt="" className=' h-full w-full object-cover'/>
                       <span className='w-full h-full flex items-center justify-center absolute top-0 left-0 bg-[#00000047]'></span>
                     </div>
                       <h1  className='   lg:text-[20px] md:text-[20px] sm:text-[15px] text-[12px] text-[#fff] '>{product?.fields?.name}
