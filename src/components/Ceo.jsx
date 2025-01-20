@@ -1,4 +1,4 @@
-import ceoImg from '../assets/file2.png'
+import ceoImg from '../assets/file2.webp'
 const Ceo = () => {
   return (
     <section>

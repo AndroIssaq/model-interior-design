@@ -3,7 +3,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { useEffect , useState } from "react";
 import { FaYoutube ,FaTiktok} from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.webp'
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 export default function NavbarMenu() {

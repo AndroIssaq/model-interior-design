@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import { FaPhone, FaMapMarkerAlt, FaEnvelope, FaFacebookF, FaInstagram, FaTwitter, FaTiktok } from 'react-icons/fa';
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.webp'
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';

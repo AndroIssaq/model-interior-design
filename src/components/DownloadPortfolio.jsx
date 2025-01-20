@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {IoCloseSharp} from 'react-icons/io5'
 import { HoverBorderGradientDemo } from './Button'
-import img from '../assets/download-portfolio.png'
+import img from '../assets/download-portfolio.webp'
 import portfolio from '../assets/model - package.pdf'
 const  DownloadPortfolio = () => {
     const [active,setActive]=useState(true)

@@ -4,7 +4,7 @@ import Ceo from '../components/Ceo'
 import PartnersSlider from '../components/partnersSlider/PartnersSlider'
 import Coast from '../components/Coast'
 import AboutUs from '../components/AboutUs'
-import img1 from '../assets/aboutuspage.jpg'
+import img1 from '../assets/aboutuspage.webp'
 const AboutUsPage = () => {
   return (
     <section className="overflow-hidden mt-[50px] flex flex-col gap-[50px] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]  dark:bg-dark">

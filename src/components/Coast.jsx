@@ -1,6 +1,5 @@
-import img from '../assets/50.jpeg'
+import img from '../assets/50.webp'
 import { HoverBorderGradientDemo } from './Button'
-import { Link } from 'react-router-dom'
 const Coast = () => {
   return (
     <section>
