@@ -6,7 +6,7 @@ const Ceo = () => {
         <div className="flex xl:flex-row-reverse lg:flex-row-reverse  md:flex-col sm:flex-col flex-col bg-[#121111] rounded-[20px] items-center justify-center w-full ">
             <div className="left flex-1 flex items-center justify-center ">
                 <div className='ceo-img w-[100%] xl:h-[700px] lg:h-[600px] md:h-[800px] sm:h-[700px] h-[700px]'>
-                    <img src={ceoImg} loading='lazy' alt="" className='w-full h-full object-cover rounded-[20px] ' />
+                    <img src={ceoImg}  alt="" className='w-full h-full object-cover rounded-[20px] ' />
                 </div>
               
             </div>
