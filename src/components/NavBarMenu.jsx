@@ -1,5 +1,3 @@
-"use client"
-import { MdFacebook } from "react-icons/md";
 import { AiFillInstagram } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { useEffect , useState } from "react";
